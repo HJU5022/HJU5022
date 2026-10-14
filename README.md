@@ -1,24 +1,30 @@
-## Hi, I'm Jeongun Ha 👋
+<h3>Jeongun Ha — AI Agent Developer</h3>
 
-I build LLM agents and verify them with evaluations — not just demos.
+LLM agents, verified by evals — not just demos.
 
-### Featured Projects
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/HJU5022/Marvia"><img src="https://github.com/HJU5022/Marvia/raw/main/docs/assets/gif/01-lookup.gif" alt="Marvia demo" width="100%"></a>
+      <h4><a href="https://github.com/HJU5022/Marvia">Marvia</a></h4>
+      Judges whether import cargo at Busan Port will arrive on time — with the evidence behind each verdict.<br><br>
+      ✅ <b>10 / 11</b> eval targets passed <sub>(n=30, re-run 6×)</sub><br>
+      🛠 Agent backend · Evals · Langfuse<br><br>
+      <a href="https://marvia.up.railway.app">Live</a> · <a href="https://github.com/HJU5022/Marvia/blob/main/EVAL_REPORT.md">Eval report</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/HJU5022/K_Menu_Voice_Guide"><img src="https://github.com/HJU5022/K_Menu_Voice_Guide/raw/main/docs/assets/demo-detail.gif" alt="K-Menu demo" width="100%"></a>
+      <h4><a href="https://github.com/HJU5022/K_Menu_Voice_Guide">K-Menu Voice Guide</a></h4>
+      Snap a Korean menu, hear each dish explained in English.<br><br>
+      ✅ OCR menu match <b>0% → 91.67%</b> <sub>(n=36)</sub><br>
+      🛠 OCR & TTS fine-tuning · Pipeline · Mobile app<br><br>
+      <a href="https://hju5022-k-menu-react.static.hf.space">Live</a>
+    </td>
+  </tr>
+</table>
 
-**[Marvia](https://github.com/HJU5022/Marvia)** — An LLM agent that takes a single B/L and judges whether import cargo at Busan Port will arrive on time (On track / Watch / Act), showing the evidence behind each verdict.
-- Eval: 30-case set (8 normal · 14 edge · 8 failure-inducing), re-run 6×, 10 of 11 targets passed → [EVAL_REPORT](https://github.com/HJU5022/Marvia/blob/main/EVAL_REPORT.md)
-- [Live](https://marvia.up.railway.app) · Agent API · MCP server
-- My role: Built the agent's verdict backend (LLM calls, vessel identification, output validation & retry) and wired it to the MCP tool server with tool-call tracing in Langfuse. Also built the 30-case eval set with LLM-as-judge, DB/auth, and the frontend overhaul.
+<img src="https://skillicons.dev/icons?i=py,fastapi,postgres,pytorch,docker,flutter,nextjs" alt="Tech stack">
 
-**[K-Menu Voice Guide](https://github.com/HJU5022/K_Menu_Voice_Guide)** — Snap a Korean menu, get each dish explained in English text and voice (pronunciation, spice level, ingredients, allergens).
-- Eval: fine-tuned OCR menu-match recall 91.67% (33/36) vs. 0% (0/36) with off-the-shelf PaddleOCR
-- [Live](https://hju5022-k-menu-react.static.hf.space)
-- My role: Led OCR — PaddleOCR fine-tuning and line-level menu matching (0% → 91.67%). Co-developed Qwen3-TTS LoRA fine-tuning with a teammate and integrated it into serving. Also built the end-to-end pipeline, FastAPI server, Flutter mobile app, and HF Spaces deployment.
+<sub>Also: MCP · Langfuse · LLM evaluation · PaddleOCR · TTS · Railway · Hugging Face Spaces</sub>
 
-### Tech
-- **LLM · Agent**: MCP · Langfuse (tracing, prompt management) · LLM evaluation design
-- **Backend**: Python · FastAPI · PostgreSQL
-- **Vision · Voice**: PaddleOCR · TTS
-- **Deploy**: Docker · Railway · Hugging Face Spaces
-
-### Contact
 ✉ dnsl0522@gmail.com
