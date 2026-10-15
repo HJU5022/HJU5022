@@ -16,7 +16,7 @@ const sections = {
     "    I built the agent backend & evals",
     "    10 of 11 eval targets (30 cases × 6 reruns)",
     "    prompt injection 0/240 (16 attacks × 5 channels × 3 runs)",
-    `    ${dim("https://github.com/HJU5022/Marvia · https://marvia.up.railway.app")}`,
+    `    ${dim("https://github.com/HJU5022/Marvia")}`,
     "",
     `  ${cyan("K-Menu Voice Guide")}  Korean menu photo → English voice guide  ${dim("2026.08 · team of 4")}`,
     "    I built OCR fine-tuning & the Flutter app; co-developed TTS fine-tuning",
