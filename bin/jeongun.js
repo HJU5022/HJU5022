@@ -17,9 +17,9 @@ const sections = {
     "    10/11 eval targets (30 cases × 6 reruns) · prompt injection 0/240",
     `    ${dim("https://github.com/HJU5022/Marvia · https://marvia.up.railway.app")}`,
     "",
-    `  ${cyan("K-Menu Voice Guide")}  Korean menu photo → English voice guide  ${dim("2026.08 · team of 6")}`,
-    "    I built OCR/TTS fine-tuning & the app",
-    "    OCR line match 0% → 91.67% (n=36)",
+    `  ${cyan("K-Menu Voice Guide")}  Korean menu photo → English voice guide  ${dim("2026.08 · team of 4")}`,
+    "    I built OCR fine-tuning & the Flutter app; co-developed TTS fine-tuning",
+    "    OCR match recall 0% → 91.67% (33/36, base PaddleOCR 0/36)",
     `    ${dim("https://github.com/HJU5022/K_Menu_Voice_Guide · https://hju5022-k-menu-react.static.hf.space")}`,
   ],
   stack: [
