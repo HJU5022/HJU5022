@@ -1,0 +1,12 @@
+{
+  "name": "jeongun",
+  "version": "1.0.0",
+  "description": "Jeongun Ha — AI Agent Developer",
+  "bin": {
+    "jeongun": "bin/jeongun.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "license": "MIT"
+}
