@@ -7,7 +7,7 @@
 **[Marvia](https://github.com/HJU5022/Marvia)** — Busan Port import cargo-delay agent · team of 2 · `2026.09 – 2026.10` · [demo](https://github.com/HJU5022/Marvia/blob/main/docs/assets/gif/01-lookup.gif)<br>
 Agent backend & evals · 10 of 11 eval targets (30 cases × 6 reruns)<sup>[E2](https://github.com/HJU5022/Marvia/blob/main/EVAL_REPORT.md#한눈에-목표-대비-결과)</sup> · prompt injection 0/240 (16 attacks × 5 channels × 3 runs)<sup>[E3](https://github.com/HJU5022/Marvia/blob/main/EVAL_REPORT.md#7-출시-게이트)</sup>
 
-**[K-Menu Voice Guide](https://github.com/HJU5022/K_Menu_Voice_Guide)** — Korean menu photo → English voice guide · team of 4 · `2026.08` · [live](https://hju5022-k-menu-react.static.hf.space)<br>
+**[K-Menu Voice Guide](https://github.com/HJU5022/K_Menu_Voice_Guide)** — Korean menu photo → English voice guide · team of 4 · `2026.08` · [live](https://hajeongun-k-menu-react.static.hf.space)<br>
 OCR fine-tuning, TTS fine-tuning (co-developed), Flutter app · OCR match recall 0% → 91.67% (33/36)<sup>[E4](https://github.com/HJU5022/K_Menu_Voice_Guide#비교-실험-결과)</sup>
 
 ### How I work
