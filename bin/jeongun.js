@@ -12,6 +12,12 @@ const sections = {
   projects: [
     bold("Projects"),
     "",
+    `  ${cyan("SojaFit")}  RAG agent that judges replacement diodes on datasheet evidence  ${dim("2026.10 – 11 · team of 3")}`,
+    "    I built the RAG pipeline, the LangGraph agent & the eval set",
+    "    retrieval Page Recall@5 0.579 → 0.908 (38-question check set, 14 wins · 1 loss)",
+    "    frozen 50-question eval set 50/50 · 49/50 (2 runs; includes cases fixed during tuning)",
+    `    ${dim("https://github.com/HJU5022/SojaFit")}`,
+    "",
     `  ${cyan("Marvia")}  Busan Port import cargo-delay agent  ${dim("2026.09 – 10 · team of 2")}`,
     "    I built the agent backend & evals",
     "    10 of 11 eval targets (30 cases × 6 reruns)",
@@ -26,7 +32,8 @@ const sections = {
   stack: [
     bold("Stack"),
     "",
-    "  Agent    MCP · Langfuse · LLM evaluation",
+    "  Agent    LangGraph · MCP · Langfuse · LLM evaluation",
+    "  RAG      pgvector · BM25 hybrid search · Docling",
     "  Backend  Python · FastAPI · PostgreSQL · Docker",
     "  Model    PyTorch · PaddleOCR · TTS LoRA",
     "  App      Flutter · Next.js",
@@ -45,8 +52,9 @@ const sections = {
   contact: [
     bold("Contact"),
     "",
-    "  Email   dnsl0522@gmail.com",
+    "  Email   hajeongun.dev@gmail.com",
     "  GitHub  https://github.com/HJU5022",
+    "  Web     https://hajeongun-portfolio.vercel.app",
   ],
 };
 
