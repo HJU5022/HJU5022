@@ -1,5 +1,7 @@
-<img align="right" width="300" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HJU5022&layout=compact&hide_border=true&hide_title=true&langs_count=6&card_width=300&bg_color=00000000&text_color=e6edf3#gh-dark-mode-only">
-<img align="right" width="300" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HJU5022&layout=compact&hide_border=true&hide_title=true&langs_count=6&card_width=300&bg_color=00000000&text_color=1f2328#gh-light-mode-only">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=HJU5022&layout=compact&hide_border=true&hide_title=true&langs_count=6&card_width=300&bg_color=00000000&text_color=e6edf3">
+<img align="right" width="300" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HJU5022&layout=compact&hide_border=true&hide_title=true&langs_count=6&card_width=300&bg_color=00000000&text_color=1f2328">
+</picture>
 
 ### Hey, I'm Jeongun 👋
 
